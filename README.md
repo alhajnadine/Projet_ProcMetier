@@ -1,7 +1,11 @@
 # Projet Processus Métier
 
 ## Objectif
-Le projet illustre de manière détaillée le processus de conception et de développement d'un système innovant de traitement de commandes asynchrone, élaboré en utilisant FastAPI et RabbitMQ. Ce projet vise à établir une architecture composée de deux piliers fondamentaux : un processus client, destiné à l'initiation et à la soumission de commandes, et un processus fournisseur, dédié à la gestion intégrale des demandes, comprenant la génération de devis ainsi que la confirmation des commandes.
+Le projet illustre de manière détaillée le processus de conception et de développement d'un système innovant de traitement de commandes asynchrone, élaboré en utilisant FastAPI et RabbitMQ. Ce projet vise à établir une architecture composée de deux piliers fondamentaux : un processus client, destiné à l'initiation et à la soumission de commandes, et un processus fournisseur, dédié à la gestion intégrale des demandes, comprenant la génération de devis ainsi que la confirmation des commandes.<br>
+
+Pour faciliter cette communication asynchrone entre le client et le fournisseur, nous avons intégré RabbitMQ. RabbitMQ agit comme un intermédiaire de messagerie, permettant au client de soumettre des commandes au serveur FastAPI et au fournisseur de recevoir ces commandes pour traitement ultérieur.
+RabbitMQ utilise des files d'attente pour stocker les commandes en attente de traitement. 
+
 ## Modélisation
 
 ![Schéma du Processus de Traitement des Commandes](https://github.com/alhajnadine/Projet_ProcMetier/blob/master/schema.png?raw=true)
