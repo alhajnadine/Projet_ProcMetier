@@ -21,3 +21,8 @@ Dans notre modèle BPMN (Business Process Model and Notation), nous décrivons l
   Une fois que le devis est reçu,Le client examine le devis et décide de le valider ou non. Si le client ne valide pas le devis, le processus se termine. Si le client confirme le devis, le fournisseur reçoit une confirmation du client.
 
 Ce modèle offre une vue détaillée du flux de traitement des commandes, des interactions entre les parties prenantes et des décisions prises à chaque étape du processus.
+
+## Execution du code
+Activer l'environment: ***venv\Scripts\activate***
+Executer code client: ***python client.py***
+Executer code fournisseur: ***python fournisseur.py***
