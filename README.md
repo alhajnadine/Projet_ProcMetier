@@ -26,7 +26,7 @@ Dans notre modèle BPMN (Business Process Model and Notation), nous décrivons l
 Ce modèle offre une vue détaillée du flux de traitement des commandes, des interactions entre les parties prenantes et des décisions prises à chaque étape du processus.
 
 ## Execution du code
-Connection avec RabbitMQ <br>
+Connection avec **RabbitMQ** <br>
 Connection avec Base de données <br>
 Activer l'environment: ***venv\Scripts\activate*** <br>
 Executer code client: ***python client.py*** <br>
